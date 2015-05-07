@@ -1,0 +1,79 @@
+body {
+  height: 100%;
+  font-size: 100%;
+  font-family: "leitura-news", "Times New Roman", Georgia, serif;
+}
+
+/*#portrait {
+  background-image: url(images/dylan2.jpg);
+  background-size: cover;
+
+  background-repeat: no-repeat
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 70%;
+
+}*/
+
+#portrait {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 69%;
+  background: #000;
+}
+
+#bio {
+  overflow: scroll;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  color: #151515;
+  background: #FFF;
+  width: 31%;
+ /* margin: 0 auto;*/
+  padding: 5% 1% 5%;
+}
+
+.social {
+  position: absolute;
+  bottom: 0;
+  padding-top: 5%;
+ /* left: 32.5%;*/
+
+ left:0;
+}
+
+ol, ul {
+  list-style: none;
+}
+/*this is the alternative to the top version of the css*/
+/*#bio {
+  position: absolute;
+  overflow: scroll;
+  width: 22%;
+  top: 0;
+  bottom: 0;
+  margin: 0 auto;
+  padding: 5% 5% 10%;
+  float: left;
+}*/
+
+/*#portrait {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}*/
+
+/*.social {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}*/
